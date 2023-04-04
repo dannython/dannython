@@ -1,0 +1,50 @@
+so today we will discuss about text file handling
+
+1) how to read the data character by character from txt file
+2) how to read the data line by line from txt file
+3) how to write single line
+4) how to write multiple lines
+5) how to append the data in existing file
+
+before reading/writing/appending the data in a txt file we have to create a connection with the file, we can create the connection using predefined class that is File class
+
+
+
+
+because in my code i have given the path of the desktop for the file and after that i am sharing my code with xyz so what is the limitation for xyz person. xyz person has to keep the file at the same location
+
+so what is the good coding practice
+we will keep the file with the 
+
+
+projects
+
+
+location-----------------absoluate path of the file(from the system)
+relative path------------gibing the project reference(/DChanana/dc12.txt)
+
+
+relatvie path will start from ..(double dot)
+
+
+explicit data type conversion
+because char is a small data type comparing to the int
+
+
+
+FIleReader is the class used for reading character by character
+BufferedReader is the class used for reading line by line
+
+
+how to write a single line in the file
+
+BufferedWriter
+
+
+whether file exist or not-----------if yes-------------then it will override
+                                             if no---------------------then it will create a new file 
+
+
+
+
+

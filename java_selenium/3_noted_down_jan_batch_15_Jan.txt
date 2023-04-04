@@ -1,0 +1,203 @@
+Type of variables
+Constructor
+type of constructor 
+constructor vs method
+importance of the constructor
+why we create the constructor
+this keyword
+
+
+what do you mean by variable ?
+which store some value and value can be change
+
+
+we have two type of the variables
+
+global variable-----------variable declared inside a class and outside a method that is global variable, we can use these variables in the whole class
+
+local variable--------------variable declared inside a method that is local variable, we can use these variables in that method only where we have declared it
+
+
+
+******************************************************************
+Constructor----------------------
+
+1) its like method
+2) constructor name and class name will be same, whatever class name we have, our constructor name will be same
+3) no return type(even we can't write void also)
+4) no need to call, it will be called automatically as we create the object of the class.
+
+how we call the method
+by creating the reference_variable of the class
+
+how we call the consturcotr
+no need to call, as we create the object of the class it will be called by itself 
+
+
+
+we have two type of the constructor
+default constructor
+parameterized constructor
+
+
+
+
+
+method vs constructor
+
+
+1) method can return or it can't return  
+1) constructor will not return anything
+
+2) method name can be anything
+2) constructor name will always same as class name
+
+3) in case of method, we have to call using refernece_variable
+3) in case of constructor, no need to call it will be called as we create the object of the class
+
+Problem statement
+
+I have five global variables, and i need to assign values to those variables and I need to print the values of those variables
+
+
+Solution1--------------> call the variables, assign value and print the values
+
+
+10 calls for one object-----------------5 for assigning the values and 5 for printing those values
+
+if i have 10 objects ?
+how many calls will be there-------------10*10-------100 times
+
+Solution2----------------> if i am using method for assigning the values 
+
+total calls-------------------------------for object1--------------1+5-------6 times
+
+if i have 10 objects ?
+how many calls will be there--------------------10*6-----------------60 times
+
+
+Solution3--------------------------> if  i am using constructor for assigning the values
+
+
+total calls-----------------------for object1--------------------------------5 times
+if i have 10 objects ?
+how many calls will be there-----------------------10*5------------------------50 times
+
+
+
+
+constructor is used for assigning the values for an object
+and the main benefit of consturcotr is that no need to call it will be called by itself as we create the object of the class
+
+no of calls has been reduced
+
+
+for example i want to call all the constructor 
+
+
+
+
+every object having its own memory
+
+
+
+
+
+
+
+this keyword------------------------
+
+1) for calling from one constructor to another constructor and this will be the first statement inside a constructor and we can't write more than one this statement inside a constructor
+
+
+Assignment1
+Output should be in the below sequence
+
+three parameterized constructor
+default constructor
+one parameterized constructor
+four parameterized constructor
+two parameterized constructor
+
+using this keyword and you need to create only one object
+
+
+
+
+
+second use of this keyword
+for calling from one method to another method, and in case of method you can write this statement anywhere in the method and you can write more than one this statement inside a method
+
+
+
+
+
+
+Assignment2--------------
+
+Output should be in the below sequence using this keyword
+
+four parameterized method
+default method
+one parameterized method
+three parameterized method
+two parameterized method
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

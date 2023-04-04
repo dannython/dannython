@@ -1,0 +1,106 @@
+so today we will discuss about excel file handling
+
+how to read the data from excel file
+how to write the data in the excel file
+
+in excel we have xls format, xlsx format and csv format
+
+
+
+
+
+so for handling the xls format we will use JXL library
+for handling the xlsx format we will ues Apache POI library
+
+
+what do you mean by library ?
+which provides the built in classes and methods 
+
+if we want to use those built in classes and methods we should have the corresponding jar file of that library.
+
+we have two approaches for adding the jar file of the required library.
+
+1) manually-----------download the jar file from google and attach the jar file using build path option
+2) with the help of maven----here maven will download the jar file for us and it will attach with the project
+
+
+
+
+
+
+jxl jar file
+
+http://www.java2s.com/Code/Jar/j/Downloadjxl26jar.htm
+
+
+after writing the data in a excel file go to the save as option and there you need to select save as type --- 1999-2003
+
+
+and after that check the file format by right click go to properties and it should be xls format
+
+
+
+
+
+
+JXL library has given some classes and methods
+
+for excel file-----------------------------Workbook class
+for sheet in the excel file-------------Sheet 
+for cell in the sheet -------------------Cell
+
+
+
+getWorkbook is a method(static method) that is returning the object of the Workbook class
+
+public static Workbook getWorkbook()
+{
+
+return new Workbook();  // it is returning the object of Workbook class
+}
+
+
+
+
+
+
+
+your question is like that for example i need the data
+of 2nd row to 4th row
+
+
+
+basically getrows() method will give you the row count the last row which is containing the data
+basically getcolumns() method will give you the column count the last column which is containing the data
+
+
+
+
+Workbook
+Sheet
+Cell
+getWorkbook()
+getSheet()
+getrows()
+getcolumns()
+getCell()
+getContent()
+WritableWorkbook
+createSheet()
+createWorkbook()
+Label------------------------------with the help of Label we will define the cell structure means row no column no and the data
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

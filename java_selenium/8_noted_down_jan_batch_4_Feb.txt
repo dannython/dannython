@@ -1,0 +1,150 @@
+so today we will discuss about 
+
+static keyword
+has a relationship(in case of different project)
+final method
+
+
+*****************************************************************
+
+whar do you mean by has a relationship ?
+creation of the object of a class in the another class we call it has a relationship with in the same package or in the different package.
+
+
+we can create the object of a class in the another class in the different project as well, that is also possible.
+
+
+how it is possible ?
+
+
+in case of maven project we will get a file named pom.xml
+
+
+maven will create the jar file of the project and it will keep the jar file in the target folder
+
+
+clean goal----------------it will delete the old jars or the existing data from the target folder
+
+package goal--------------it will create the jar file of the project
+
+
+maven will keep the jar file in the target folder
+
+
+
+how we will run these goals
+
+
+
+ No compiler is provided in this environment. Perhaps you are running on a JRE rather than a JDK?
+
+we have to give jdk to our project 
+
+
+
+
+
+
+static method-----------------------
+if we make some method as a static the benefit is that we can call that method/variable directly using classname.
+
+
+
+each object having its own memory
+
+
+
+if we make something as a static, where memory will be allocated---------at the class level
+
+
+
+another benefit is that we can call the static variable/static method using classname directly
+
+
+
+we can  call a static method or static variable
+using classname
+using refernece_variable also
+
+
+
+a static method can use only static variable
+a static method can't use non static variable
+
+
+a non static method can use both(static variable or non static variable)
+
+
+
+
+we can define static keyword with global variable only not local variable
+
+
+
+
+
+static to static---------------------4 ways
+
+1) using reference_variable
+2) using classname
+3) using this keyword
+4) direct call
+
+
+non static to static---------------4 ways
+
+
+1) using reference_variable
+2) using classname
+3) using this keyword
+4) direct call
+
+
+static to non static------------------1 way
+
+1) using reference_variable
+
+
+
+
+
+
+
+
+Assignment1----------jar file practice
+
+Assignment2---------static keyword practice
+
+static to static
+non static to static
+static to non static
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

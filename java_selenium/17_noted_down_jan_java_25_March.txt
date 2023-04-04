@@ -1,0 +1,38 @@
+so today we will discuss about 
+
+most important topic that is 
+
+anything on the web page any button txt box label radio button drop down
+
+we call it webelement
+
+in programming term webelement is a interface
+
+
+there are two basic things that we need to take care
+firstly locate(identify) the webelement uniquely on which we want to work.
+after that we can perform the action.
+
+how we can identify a webelement uniquely ?
+there are some techniques by which we can idenfity a webelement uniquely. we call it element locators or element locating techniques.
+
+1) id
+2) name
+3) classname
+4) csssleector
+    1) tag with id ---------------------------------------------tagname#idvalue
+    2) tag with classname----------------------------------tagname.classvalue
+    3) tag with attribute--------------------------------------tagname[attributename='attributevalue']
+    4) tag with class with attribute-------------------------tagname.classvalue[attributename='attributevalue']
+
+
+
+
+each technique will not work at every place. ultimately goal is to identify the webelement uniquely
+
+
+task------------signup pafe automation except drop down 
+
+
+
+

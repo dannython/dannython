@@ -1,0 +1,65 @@
+so today we will discuss about
+
+drop down handling
+junit concept
+
+
+we have two kind of the drop downs
+
+1) in the select tag ----------------------if it is in the select tag then we will use select class for it
+2) or in some other tag-----------------if it is in the some other tag then we will use actions class for it
+
+
+
+today we will discuss about select class
+
+
+there are three ways given by the select class
+
+1) select by index------------------------in this case we will passs the index number of the item that we want to select and indexing will start from 0
+2) select by visibiletext-----------------in this case we will pass the visible value from the drop down of the item that we want to select
+
+3) select by value-----------------------in this case we will use the HTML, we will take the value from the html and the corresponding item to that value will be selected
+
+
+
+
+
+<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+<dependency>
+<groupId>org.seleniumhq.selenium</groupId>
+<artifactId>selenium-java</artifactId>
+<version>4.8.3</version>
+</dependency>
+
+
+
+
+assignment1----------------the complete signup page we have to finish
+
+tomorrow for sure we will cover two topics junit and xpath
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

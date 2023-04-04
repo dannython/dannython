@@ -1,0 +1,112 @@
+what are the four pillers of a java code ?
+1) Class creation ------------put variable and method in it
+2) main method creation
+3) object creation inside main method
+4) calling the variable and method using reference variable
+
+what is the syntex of object creation
+classname reference_variable=new classname();
+
+what do you mean by method ?
+for performing any operation/action we will create method for it
+
+
+we have two type of the methods
+
+user defined method
+predefined method
+
+
+we have two type of the user defined method
+
+1) default method
+2) parameterized method
+
+in terms of input we have two type of the methods
+default and parameterized
+
+in terms of output we have two type of the methods
+void and non void
+
+
+when a method will not return any result that is void method
+when we will make a method as a void method ?
+when we don't need the result of that method for further use in that case we will make it as a void method
+
+what do you mean by non void ?
+when a method will return any result that is non void method
+when we need the result of that method for further use in that case we will make it as a non void method
+
+
+syso is not related to the void or non void
+syso is just only for printing anything
+
+there is no relationship between input and output of the method
+
+1) a method can take the inputs and it can give the output
+2) a method can take the inputs and it can't give the output
+3) a method can't take the inputs and it can give the output
+4) a method can't take the inputs and it can't give the output
+5) a method can take different data type of inputs and it can give different data type of output
+
+int int ---- float value
+
+int -----------12,3456,6777
+float----------12.4  33.44  
+
+
+	
+public int abc()
+{
+
+}
+
+
+syso is only for printing
+
+
+package is used for storing the classes
+package is similier to the folder that store something
+
+
+project---package----then class
+
+
+it is mandatory to write the return statement in case of non void method
+
+in case of void method we can't write the return statement
+
+
+return is keyword that is mandatory in case of non void method
+
+when a method will return some value, so return is the keyword use in the non void method
+
+void--------when a method will not return any result that is void method
+
+why you make a method as a void method
+when we don't need the result of that method for further use, in that case we will make that method as a void method
+
+
+Assignment1------------
+
+(((((10+2)+2)-2)*2)/2)
+
+Assignment2-------------------
+(((((10/2)-2)+2)-2)*2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

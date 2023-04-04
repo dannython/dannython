@@ -1,0 +1,185 @@
+super keyword
+polymorphism
+
+
+**************************************************************
+
+what do you mean by constructor 
+
+1) it is like method
+2) constructor name and class name will be same
+3) there is no return type
+4) no need to call, it will be called automatically as we create the object of the class
+
+everytime parent default constructor is coming in the output
+
+there are two type of the calls
+
+1) implicit call-----if we are not writing any super keyword in the child class constructor then parent default constructor will also call that is implicit call
+
+2) explicit call------if we want to call the parent parameterized constructor then with the help of super keyword we can call the parent parameterized constructor, that is explicit call. and super will be the first statement in the child class constructor and we can't write more than one super statement in the child class constructor
+
+we can't write this and super together in the child class constructor 
+
+
+
+
+Parent 2 parameterized constructor
+Parent 1 parameterized constructor  this(3,55);  // it will call parent 2 parameterized constructor
+Child 1 parameterized constructor  super(333);  // it will call parent 1 parameterized constructor
+child 3 parametrerized constructor  this(345);  // control will go to child 1 parameterized constructor
+
+
+main 
+
+childclass obj=new childclass(344,55,6);  // child three parameterzied
+
+
+
+
+
+Assignment1
+
+Output should be in the below sequence(using this and super keyword)
+
+Parent 3 parameterized constructor
+Parent Default constructor
+Parent 1 parameterized constructor
+Parent 2 parameterized constructor
+Child 2 parameterized constructor
+Child default consrructor
+Child 3 parameterized construcotr
+Child 1 parmerterized constructor
+
+
+
+********************************************************************************
+
+with the help of super keyword we can call the parent method
+
+with the help of super keyword we can call the parent variable
+
+
+
+Assignment2
+
+Output should be in the below sequence
+
+
+Parent default method
+Parent 2 parameterized method
+Parent 1 parameterized method
+Parent 3 parameterized method
+child 2 parameterized method
+child default method
+child 1 parameterized method
+child 3 parameterized method
+
+
+
+
+
+
+what do you mean by oops concept
+Inheritance
+Polymorphism
+Abstraction
+Encapsulation
+Class and Object
+
+
+so today we will discuss about 
+
+Polymorphism
+
+
+Polymorphism------------------one thing many forms 
+
+there are two type of the polymorphism
+
+compile time/static polymorphism/method overloading
+run time/dynamic polymorphism/method overrriding
+
+
+compile time/static polymorphism/method overloading
+
+while designing a method there are three things
+
+method name
+method inputs
+method output
+
+rules for compile time polymorphism
+
+method names will be same
+method input data type always different
+method output data type can be same or can't be same
+
+
+
+why it is compile time polymorphism
+because when we are writing the code that is compile time enviroment
+
+and at the compile time env we will decide which method we want to call 
+
+
+
+
+
+
+
+
+
+
+
+second polymorphism is 
+method overriding/run time/dynamic polymorphism
+
+what do you mean by inheritnace
+
+1) with the help of child class object we can call the parent variable and parent method
+
+2) second possibility of inheritance is that child class can override the parent method
+
+so it means method overriding will happen in case of inheritance
+
+
+
+
+rules of overriding
+
+1) method name will be same in the child class
+2) method input data type will be same
+3) method output data type will be same
+
+where will be the change ?
+in the method body
+
+
+
+
+**********************************************
+
+Practice of the Polymorphism
+
+***************************************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

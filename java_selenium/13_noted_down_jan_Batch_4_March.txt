@@ -1,0 +1,193 @@
+Assignment1-----------
+to read the data of a particular line number
+
+public void readParticularLine(int a)   // a---5
+{
+File f=new File("Path");
+FileReader fr=new FileReader(f);
+BufferedReader b=new BufferedReader(fr);
+String s;
+int deepak=0;
+while((s=b.readLine())!=null)
+{
+ deepak=deepak+1;  // first line will come then deepak will become 1
+    if(deepak==a)   // 5==5
+    {
+          syso(s);
+          break;   // to come out of the loop
+     }
+}
+
+main method---------------readParituclarLine(5);
+
+
+
+
+}
+
+to read the data of a range
+
+
+
+
+public void readParticularLine(int initial,int end)   
+{
+File f=new File("Path");
+FileReader fr=new FileReader(f);
+BufferedReader b=new BufferedReader(fr);
+String s;
+int deepak=0;
+while((s=b.readLine())!=null)
+{
+ deepak=deepak+1;  // first line will come then deepak will become 1
+    if((deepak>=initial)&&(deepak<=end))   
+    {
+          syso(s);
+     }
+}
+}
+
+
+Assignment3---------------to write in till a position
+
+public void writeData(int range)
+{
+File f=new FIle("path");
+FileWriter fw=new FileWriter(f);
+BufferedWriter b=new BufferedWriter(fw);
+Scanner s=new Scanner(System.in);
+syso("Please enter data");
+String d;
+for(int i=1;i<=range;i=i+1)
+{
+d=s.next();
+ b.write(d);
+b.newLine();
+}
+b.write();   // for saving the data
+b.close();   // for closing the file
+}
+
+
+Assignment4---------------------to write till a range  3,6 -------so data should be written from 3rd row to 6th row and first row should be blank
+
+
+
+public void writeData(int initial,int end)
+{
+File f=new FIle("path");
+FileWriter fw=new FileWriter(f);
+BufferedWriter b=new BufferedWriter(fw);
+Scanner s=new Scanner(System.in);
+syso("Please enter data");
+String d;
+for(int i=1;i<=end;i=i+1)
+{
+if((i>=initial)&&(i<=end))
+{
+d=s.next();
+ b.write(d);
+b.newLine();
+}
+else
+{
+b.newLine();
+}
+}
+b.close();   // for closing the file
+}
+
+
+***************************************************************
+Read + Write
+
+
+
+public void ReadAndWrite()
+{
+File f1=new File("Readfilepath"):
+File f2=new File("Writefilepath");
+FileReader fr=new FileReader(f1);
+FileWriter fw=new FileWriter(f2);
+BufferedReader br=new BufferedReader("../YTFramework/readfile.txt");
+BufferedWriter bw=new BufferedWriter("../YTFramework/writefile.txt");
+String s;
+while((s=br.readLine())!=null)
+{
+   bw.write(s);   
+   bw.newLine();
+}
+bw.close();
+br.close();
+}
+
+
+you guys have to finish all the assignments of single loop, double loop and file handling and push all the assignments into github.
+
+
+             *
+           ***
+         *****
+       ********
+     **********
+
+
+
+   three loops required, one is for row, one is for printing space in column and one is for printing * in column
+
+int rowcount=5;
+for(int i=1;i<=rowcount;i=i+1)                   // loop for rows
+{
+      for(int j=1;j<=rowCount-i;j=j+1)           // loop for printing space in column
+      {
+        syso(" ");
+      }
+       for(int k=1;k<=i;k=k+1)                        // loop for printing * in column
+       {
+         syso("*");
+       }
+     syso();                                              // for moving cursor to the next line
+}
+
+
+
+******************************************************
+Maven Introduction
+now for handling the xls format of excel file we will use JXL library
+for handling the xlsx format of excel file we will use apache poi library
+
+
+what do you mean by library ?
+which provides the built in classes and methods.
+
+
+
+JXL library-------------for handling the xls file format(read and write)
+Apache POI library------------------
+
+Selenium part---------------
+rest of the java topics we will do with selenium part
+
+
+
+
+
+
+
+
+Full stack--------------frontend + backend automation
+SDET--------------------frontend + backend automation + mobile(android + ios) + cloud
+
+
+
+
+
+
+
+
+
+
+
+
+
+

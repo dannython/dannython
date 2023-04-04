@@ -1,0 +1,143 @@
+so today we will discuss about xpath
+
+xpath is also a locating technique like id,name,classname and cssselector
+
+xpath is the hierarchical path of any element.
+
+there are two type of the xpath
+absoluate xpath
+relative xpath
+
+
+for example we have a button
+<HTML>
+<HEAD>
+<TITLE>
+<BODY>
+<DIV>
+<BUTTON id="Abc"/>
+
+
+absoluate xpath that will be like this   /HTML/HEAD/TITLE/BODY/DIV/BUTTON
+relative xpath that will be like this     //BUTTON or //DIV/BUTTON
+
+THERE are some techniques for making the relative xpath as well
+
+
+1) tag with attribute          //tagname[@attributename='attributeValue']
+By.xpath("yourSyntex")); By.id
+
+//input[@id='email']
+
+
+2) tag with multiple attribute   with and condition and means both the conditions must be true
+
+//tagname[@attname1='attvalue1' and @attname2='attvalue2']
+
+//input[@id='email' and @name='email']
+
+3) tag with multiple attribute   with or condition or means any of  the condition must be true
+
+//tagname[@attname1='attvalue1' or @attname2='attvalue2']
+
+//input[@id='email' or @name='email']
+
+
+//input[@id='email' or @name='email1']
+
+4) main benefit of the xpath is that we can handle the dynamic things
+dymanic means which change again and again
+
+in a html following things can be dynamic
+tag name
+attribute name
+attribute value 
+inner text -----------------the text between opening tag and closing tag that is innertext < >welcome dc </>
+
+
+4) when tag name is dynamic 
+
+//*[@attributename='attributevalue']
+
+
+
+//*[@id='email']
+
+any tag having attribute id with value email
+
+
+
+5) when attribute name is dynamic 
+//tagname[@*='value']
+
+//*[@*='email' ]
+
+any tag having any attribute with value email
+
+6) tag with inner text where inner text is fixed
+
+//tagname[text()='innertextValue']
+
+//h2[text()='Facebook helps you connect and share with the people in your life.']
+
+7) tag with dynamic inner text where inner text is changing again and again
+
+
+Facebook helps you connect and share with the people in your life.
+
+Facebook helps you connect 
+
+Facebook helps you connect and share 
+
+Facebook helps 
+
+//tagname[contains(text(),'commonValue')]
+
+
+//h2[contains(text(),'Facebook helps ')]
+
+
+8) tag with dynamic attribute value
+
+//tagname[contains(@attributename,'commonvalue')]
+
+
+
+
+u_h_5_Dw
+
+u_2_5_+i
+
+//input[contains(@id,'u_')]
+
+
+9) use of the indexing
+
+
+ //input[contains(@id,'u_')][7]
+
+
+
+
+
+
+
+ (//input[contains(@id,'u_')])[7]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,224 @@
+so today we will discuss about very good concept that is loop and condition
+
+what is condition ?
+whether a number is even or odd that is a condition
+
+whether we will do the session today or not again that is a condition
+
+
+so for condition handling we have 
+
+if
+if else
+else if ladder
+nested if else
+switch case
+
+
+these are use for the condition handling
+
+
+%-----------------modules operator---------it will give the remainder to us.
+
+after dividing a number by 2 what remainder we are getting % will give us it will be 0 or 1
+
+
+
+= ------------------it is used for assigning the values(assignment operator)
+== ----------------comparison operator 
+
+
+we can mention else block as well
+means either if condition will execute or else block will execute
+
+if -----------true------------------corresponding block of if condition will execute
+if it is false then else block will execute
+
+
+
+for taking input from the user we use java predefined class that is Scanner class
+
+so we will create the object of Scanner class
+
+
+now we will discuss about else if ladder
+
+here we have
+
+if
+else if 
+else if 
+else if 
+else if 
+else
+
+it is not mandatory to mention the else part in the last
+
+either if condition-----------will execute--------if it is true
+if it is not true then else if---------true----------then else if will execute
+
+
+implicit and explicit data type conversion
+
+
+
+
+nested if else 
+
+
+
+if
+
+  if
+
+  else
+
+else
+
+****************************************************
+
+if
+
+else
+
+  if
+
+  else
+
+**********************************************************
+
+if
+
+  if
+
+  else
+
+else
+
+  if
+
+  else
+
+
+******************************************
+switch case--------------------------will discuss later on
+
+*******************************************
+
+one of the most important concept that is loop
+
+loop is used for the repeatative task
+
+for example i want to take 100 values will i take 100 variables ?
+no we will use loop for it
+
+
+there are three things required for the loop
+initilization--------starting point
+end point----------condition check
+increment/decrement
+
+
+
+
+firstly let's discuss about the flow of the loop
+
+we have three loops
+for loop
+while loop
+do while loop
+
+
+
+
+
+for(int i=0;i<10;i=i+2)
+   {
+	   System.out.println("Welcome deepak "+i);
+   }
+
+
+when we know how many times loop will execute then we will go with the for loop
+
+for example if we want to print a table we will use for loop
+
+when we don't know how many times loop will execute then we will go with the while loop
+
+for example we want to read the data of a txt file
+
+we don't know how many lines/words/characters in the file we will go with the while loop
+
+
+ int a=0;
+   while(a<=10)
+   {
+	   System.out.println("Welcome deepak "+a);
+	   a=a+1;
+   }
+
+we have another loop that is do while loop
+
+
+
+
+int a=0;
+  do
+  {
+	  System.out.println("value is "+a);
+	  a=a+1;
+  }while(a<10);
+  
+
+in the do while loop, it will execute at least once if the condition is false also because condition will be checked at the end
+
+
+
+
+
+
+
+
+
+*********************************************
+
+
+
+
+
+1) Swapping of two number using third variable
+a=12
+b=15
+
+a=15
+b=12
+
+2) Swapping of two number without using third variable
+
+
+3) A number is prime or not ---A number that will be divisble by itself or 1
+4) A number is palindrome or not--121--reversel of the number
+5) A number is Armstrong or not-----153----1+125+27 
+6) Table print(you can print any table)
+7) Factorial of a number  5------5*4*3*2*1---120
+8) Fibnocci series up to 12-----------
+0 1 1 2 3 5 8 13 21 34 55 89
+a=12
+b=10
+
+a=10
+b=12
+
+
+0 1 1 2 3 5 8 13 21 34 55 89
+
+
+Palindrome 121---------121
+Armstrong 153---------1+125+27----153
+
+a=12
+b=13
+
+a=13
+b=12
+
+

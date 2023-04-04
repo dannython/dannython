@@ -1,0 +1,173 @@
+so should we move to the apache poi library ?
+
+apache poi is the library used for handling the xlsx format
+
+what do you mean by library ?
+which provides the built in classes and methods.
+
+for apache poi library there is corresponding jar files of the apache poi library.
+for jar files there is corresponding maven depenedencies
+
+1) either you can attach the jar file manually using build path option.
+2) or you can give the maven dependency of the required jar files to the maven and maven will download the jar file for you.
+
+
+
+
+
+
+for second approach we have to create maven project, there are two ways for the maven project creation.
+
+1) either you can convert your java project into maven project.
+2) or you can create maven project from scratch.
+
+
+
+in case of maven project we will get a file named pom.xml
+
+
+for example i need the jxl library
+
+
+https://mvnrepository.com/
+
+
+
+
+
+<dependency>
+                 <groupId>org.apache.poi</groupId>
+                 <artifactId>poi</artifactId>
+                 <version>3.9</version>
+          </dependency>
+          <dependency>
+                 <groupId>org.apache.poi</groupId>
+                 <artifactId>poi-ooxml</artifactId>
+                 <version>3.9</version>
+          </dependency>
+          <dependency>
+                 <groupId>org.apache.poi</groupId>
+                 <artifactId>poi-ooxml-schemas</artifactId>
+                 <version>3.9</version>
+          </dependency>
+          <dependency>
+                 <groupId>org.apache.poi</groupId>
+                 <artifactId>poi-scratchpad</artifactId>
+                 <version>3.9</version>
+          </dependency>
+          <dependency>
+                 <groupId>org.apache.poi</groupId>
+                 <artifactId>ooxml-schemas</artifactId>
+                 <version>1.1</version>
+          </dependency>
+
+          <dependency>
+                 <groupId>org.apache.poi</groupId>
+                 <artifactId>openxml4j</artifactId>
+                 <version>1.0-beta</version>
+          </dependency>
+
+
+maven will keep the jar files in your system in the .m2 folder.
+
+
+
+if you face any issue just delete the .m2 folder and update your project.
+
+
+
+
+firstly maven will check the jar files in the .m2 folder whether it exist or not 
+if it exist then it will not download
+if it doesn't exist then it will download and will keep the downloaded jar file in the .m2 folder
+
+
+
+JXL                                Apache POI
+Workbook                      XSSFWorkbook
+Sheet                             XSSFSheet
+getSheet()                      getSheet() getSheetAt()
+getrows()                       getphysicalnumberofrows()
+no row object required   XSSFRow
+getcolumns()                  getPhysicalnumberofcells()
+Cell                                XSSFCell
+getContent()                  getStringCellValue() / getNumericCellValue()
+createSheet()                createSheet()
+no need of row              createRow()
+Label for cell                  XSSFCell + createCell() + setCellValue(" ")
+
+
+
+
+
+
+
+switch case statement-----------we can put conditions 
+
+you have to make the cases 
+if string then use this method
+if numeric then use this method
+if this then use this method
+
+
+
+in case of read, file should be there from where you want to read.
+in case of write, code will create the file at the location which you have given in the code
+
+
+
+
+there is another interview question how you can maitain the test data
+xls file
+xlsx file
+csv file
+properties file
+json file---------------------in api sessions
+yaml file--------------------in api sessions
+
+
+there is one difference in case of apache poi we are creating the object of each row and the object of each cell
+
+jxl library------------
+row1                                        column1 column2            column6
+row2                                        column1 column2
+      row3,row4----blank          
+row5                                                                                                  column8
+
+getrows---------------->number of rows------------the last row which is containing data------5
+getcolumns------------> the last column which is containing the data---------------------------8
+
+first row----------------------0 to 7 for column
+second row-----------------0 to 7 for columns
+third row 
+fourth row
+fifth row--------------------------0 to 7 columns
+
+so here extra loop is executing
+
+
+if we are doing with the help of apache poi
+
+row1- ----------------------column1 column2
+row2-----------------------column1          to column6
+row3-----------------------column1 to column10
+
+getphysicalnumberofrows()---------------------------3
+first row-----------------------------for columns---------2 times only
+second row-----------------------for columns----------6 times 
+third row-----------------------------for columns--------10 times
+
+
+same assignments of JXL we have to do for apache poi as well
+
+
+
+
+
+
+
+
+
+
+
+

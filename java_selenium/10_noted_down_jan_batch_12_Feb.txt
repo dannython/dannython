@@ -1,0 +1,41 @@
+debugging 
+loop and condition
+condition and loop
+double loop
+
+*******************************************************
+
+in the next session, I need all the assignments of single loop and double loop, after that i will proceed to the next topic.
+
+what is debugging ?
+debugging is a process by which we can do the analysis of the code
+by which we can find out the root cause of the problem in the code
+by which we can find out till which point code is working fine
+
+
+for debugging we use the debug points
+debug point is the point from where debugging process will start.
+means after that we can execute the code line by line
+from the debug point
+
+step over---------------for moving to the next line
+step into----------------for moving inside any method
+step return -------------for moving back 
+
+
+
+**********************************************************
+we can use loop and condition together 
+means inside condition we can use loop
+means inside loop we can use condition
+
+
+
+
+
+
+
+
+
+
+

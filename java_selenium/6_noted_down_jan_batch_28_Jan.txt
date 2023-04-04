@@ -1,0 +1,264 @@
+our first activity is 
+
+java project creation-----then package-----then class
+
+
+there are four pillers of a java code
+
+first piller------------class creation------------------put variable and method in it
+
+which represent variable and method 
+which contains variable + method
+
+for printing any msg on the console what we will use 
+
+we will use syso then control space
+
+second piller-----------------main method creation
+
+third piller----------------------object creation inside main method
+what is the syntex of object creation
+classname reference_variable=new classname();
+here new keyword will create the object, after that memory will be allocated. there will be some address of that memory. reference_variable will point to that memory address.
+
+
+fourth piller-----
+call variable and method using refernece_variable(calling the variable and method)
+
+
+
+***********************************************************
+
+public void abc()
+{
+
+}
+
+
+
+from input point of view we have two methods
+
+1) default   method
+2) parameterized method
+
+
+from output point of view we have two type of methods
+
+1) void
+2) non void
+
+when a method will not return any result that is void method--------------we can't write return keyword
+
+when a method will return any result that is non void method-------------we have to write return keyword
+
+
+when we need the result of a method for further use in that case we will make a method as a non void method
+
+
+when we don't need the result of a method for further use in that case we will make it as a void method
+
+
+
+
+(10+2)(10-2)  sum method sub method multiplication 
+
+how many method required for solving this expression
+
+three methods required----sum,subtract and multiplication
+
+sum method
+methodname-----------sum
+method type------------2 parameterized
+method output --------non void because we need the result of this method for further use
+
+
+do we need the result of multiplication method ?
+we don't need the result of multiplication method for further use, so we will make it as a void method
+
+
+
+piller1------------------class creation
+piller2------------------main method creation
+piller3----------------object creation inside main method
+piller4----------------calling variable and method using reference_variable
+
+
+constructor
+
+1) constructor is like method
+2) constructor name and classname will be same
+3) no return type
+4) no need to call, it will be called by itself as we create the object of the class
+
+what is the difference between method and constructor
+
+methodname can be anything
+constructor name will be always whatever class name we have
+
+in case of method there can be return type or no return type
+in case of constructor it will be always no return type(even we can't write void also here)
+
+in case of method we have to call the method by using reference_variable
+in case of constructor as we create the object of the class, constructor will be called automatically
+
+
+
+
+there are two type of the constructor
+default and parameterized
+
+
+
+
+
+1) class creation------------put variable + method + constructor
+2) main method creation
+3) object creation inside main method
+
+
+
+
+
+
+in case of method you have to call 
+firsly you have to create the object then you need to call
+
+in case of constructor 
+you have to only create the object 
+
+
+this keyword----
+
+1) it is used for calling from one constructor to the another constructor----and inside a constructor this will be the first statement and we can't write more than one this statement inside a constructor
+
+
+
+
+
+second use of this keyword------------------------
+
+this keyword is used for calling from one method to another method. and we can write more than one this statement in case of method calling and we can write this statement anywhere in this case
+
+
+what do you mean by OOPS concept
+
+there are some object oriented programming concept
+
+inheritance
+polymorphism
+abstraction
+encapsulation
+class and object
+
+java support oops concept
+
+inheritance--------------
+acquiring the properties of parent class to the child class
+
+means with the help of child class object we can call the 
+
+parent variable + parent method
+
+
+
+
+
+Maruti-----------------parent class
+swift------------------child class
+
+extends is the keyword used for inheritance
+
+
+
+this is single level inheritance
+
+
+
+
+
+multi level inheritance
+
+Suresh--------------grandfather
+Harish--------------Father
+Sonu-----------------Son
+
+
+
+with the help of Sonu object
+we can call the 
+
+method and variable of Harish class
+method and variable of Suresh class
+method and variable of Sonu class
+
+
+
+
+
+
+hierarchical inheritance
+
+Harish-----------having two sons
+
+Sonu--------with the help of Sonu object we can call Harish v + method Sonu v + method
+Ramu----------with the help of Hari object we can call Harish v + method Ramu v+ method
+
+
+one father having multiple sons---------hierarchical
+one father having one son----------------single level
+one grandfather having one son --that son having one son---------multi level
+
+
+father
+
+son1 ------------son1 object----------father v+ method son1 v+method
+
+son2----------------son2 object----------father v + method son2 v+method
+
+
+
+
+as of now we have seen, we can create the object of a class with in same class 
+
+has a relationship---------------
+
+creation of the object of a class in the another class we call it has a relationship with in same package
+creation of the object of a class in the another class we call it has a relationship with in other package
+
+
+
+
+is a reationship-------------
+same package or different package
+
+
+
+1) i will share some manual testing videos
+2) dt hub group or not
+3) drive access 
+4) notes
+
+
+
+
+
+you have to do the practice of assigments + refer the notes + some interview questions that's it
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

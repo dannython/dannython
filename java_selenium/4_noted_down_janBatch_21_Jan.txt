@@ -1,0 +1,186 @@
+Let suppose i want to share my code with Akshat 
+
+How i can share my code 
+
+or I need the code written by Akshat
+
+How i can take that code
+
+one of the good topic that is source code management tool or we can say version control tool
+
+we will use source code management tool for sharing the code with in a team 
+
+
+there are a number of source code management tools or version control tool like
+github
+bitbucket
+SVN
+TFS
+
+these are the souce code management tool, you can mention in your resume github/bitbucket
+
+the way of working is same for all source code management tool
+
+github 
+
+
+
+workspace-------------workspace is the location in your system wherre code will be saved.
+
+
+workspace----------->to the local repository------------>
+
+
+
+you need to create an account on the github.com
+
+
+
+each centralized repository having a unique URL 
+
+
+there are two ways for code push and code pull
+
+1) you can use eclipse interface for code push and code pull, internally eclipse also use git commands for code push and code pull----------------for centralized repo link we will select HTTPS option
+
+2) we can use git commands directly for code push and code pull----------we will select SSH option
+
+
+from workspace to local repo---------
+Team-----------share project
+
+it can be on bitbucket 
+it can be on github
+
+
+centralized repository----------------URL you will get from the devops team
+
+
+
+centralized repo
+
+https://github.com/deepakchanana/janBatch.git
+
+
+
+local repo---------------->centralized repo
+
+
+
+
+
+
+
+
+we need to generate a key here on the github.com
+
+
+
+go to settings------------> then Developers Setting--------->Personal Access tokens
+
+
+
+
+https://github.com/deepakchanana/janBatch.git
+
+
+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
+
+
+
+
+Unstage---------------it will show those files in which we have done the changes
+Stage-------------------here we will keep those files which we want to push
+
+
+
+let suppose if you are doing the changes in some file or you adding some file or you deleting some file 
+then you need to do the commit and push
+
+file1-------------you have already push this file to the centralized repo
+
+then what will be the worth to push the same file
+
+
+this is the one time activity------------------->from workspace to the local repository
+
+
+
+
+you don't need to take care of these things----------------
+
+repository will be paid----------------because your company doesn't want to share the code outside
+
+
+
+
+I am working as a Akshat and I need the code written by Deepak
+
+
+
+
+for code pull akshat needs the repository url of Deepak code
+
+
+
+
+
+
+https://github.com/deepakchanana/janBatch.git
+
+
+
+
+when you are cloning the code from centralized repository it will be created automatically
+
+
+conflict problem---------------------when we will discuss the git commands for code push and code pull
+
+
+
+
+
+deepak------------------File1
+Akshat------------------File2
+
+
+
+	
+
+
+we have to submit all the assignments in the git hub repository--------------we have to share the repo url in the group only
+
+
+
+
+Agenda of tomorrow session
+Inheritance(OOPS concept)
+type of Inheritance
+has a relationship vs is a relationship
+final keyword
+Scanner class
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

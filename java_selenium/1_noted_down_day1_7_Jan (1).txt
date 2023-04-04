@@ -1,0 +1,161 @@
+don't write anything on the paper or notepad, I will share everything
+I will make notes for you
+Just give attention to the session
+
+JDK vs JRE vs JVM
+Java installation
+Path Variable and why we set the path variable
+Eclipse setup
+Class and Object(4 pillers of a java code)
+
+
+JDK vs JRE vs JVM
+
+JDK------Java Development kit----------------when we want to write the code and we want to execute the code then we must have JDK in our system.
+
+JRE-------Java Runtime environment------when we want to only execute the code if we have JRE in our system yes we can because JRE will provide a run time environment.
+
+
+JVM-----Java Virtual Machine------------------it will actually execute the code in the enviornment provided by JRE
+
+
+JDK contains-------------> JRE + JVM
+JRE contains------------>JVM
+
+
+JDK-----contains---------JRE-------------contains------------JVM
+
+so what we required ?
+because we want to write the code and we want to execute the code that's why we need JDK in our system
+
+
+
+
+download the jdk exe file from the drive link that i will share 
+and just click on it and next---next and finish that's it
+
+
+
+after downloading the exe file you need to click on that exe
+
+
+after finishing the exe file you will get the java setup in your system in 
+the C drive program files
+
+
+
+
+C:\Program Files\Java\jdk1.8.0_171\bin
+
+
+copy this path till bin folder
+
+
+in win7-----------path variable value will be in a single line just go to the end of the line by right arrow and put semicolon and paste your path
+
+java -version
+
+
+
+we required a software named eclipse
+
+what is eclipse
+its a editor(IDE)----------------like notepad
+
+download the eclipse as per your system requirement
+
+64 bit
+32 bit
+
+64 bit eclipse --------
+
+https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/photon/R/eclipse-jee-photon-R-win32-x86_64.zip
+
+
+32 bit 
+
+https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/photon/R/eclipse-jee-photon-R-win32.zip
+
+after downloading the eclipse just extract that folder
+
+that zip folder
+
+what is workspace ?
+workspace is the location where your code will be saved in the system
+
+
+what do you mean by class ?
+a class represent variable + method
+
+
+
+for printing any msg on the console we will use
+
+syso and control + space
+
+
+
+piller1------------------------class creation-----------------> put variable + method
+piller2----------------------main method creation
+java has given a predefined method that is main method and that is the entry point of the execution
+code execution will start from the main method
+
+piller3----------------------object creation inside main method
+where we will create the object ?
+inside main mehod
+
+why we are creating the object ?
+so that we can call/access the variable and method of the class
+
+what is the syntex of object creation ?
+classname refernece_variable=new classname();
+
+here new keyword will create the object and after that memory will be allocated.
+there will be some address of that memory.
+
+reference_variable will point to that memory address
+
+
+
+piller4--------------------------call the variable and method of the class using refernece_variable
+
+
+
+Assignment--------------------
+create a class named Student
+
+put two variables age and roll_no
+
+put two methods
+display1 -----welcome to all of you
+display2 -----automation is very easy
+
+create main method
+   create object
+   call both the methods
+   call both the vairalbe----give vlaue ----print value
+
+
+
+recording + noted down files + notees
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

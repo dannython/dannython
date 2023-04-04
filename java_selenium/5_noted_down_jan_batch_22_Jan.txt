@@ -1,0 +1,167 @@
+so today we will discuss about 
+
+Inheritance
+is a relationship vs has a relationship
+final keyword
+Scanner class
+
+***********************************************************************
+
+what do you mean by OOPS concept
+Object oriented programming
+
+Java support OOPS concept
+
+there are OOPS concept like
+Inheritance
+Polymorphism
+Abstraction
+Encapsulation
+Class and Object
+
+
+
+Inheritance------------what is inheritance
+inheritance means acquiring the properties of parent class to the child class that is Inheritance concept
+
+
+what is the benefit of inheritance(reusability)
+
+means with the help of child class object, we can call the parent variable and parent method
+
+
+
+extends is the keyword use for inheritance
+
+
+
+
+
+After : whatever is written that is the return type of that method
+After - whatever is written that means that method belong to that class
+
+
+
+who is maitaining the topics of this batch
+
+
+
+multiple inheritance------------Abstraction in java
+
+
+****************************************************************************
+
+
+
+
+is a vs has a relationship
+
+what is the difference between is a relationship and has a relationship
+
+
+As of now we have seeen we can create the object of a class in the main method in the same class---Yes
+
+creation of the object of a class in the another class we call it has a relationship
+
+
+
+has a relationship
+
+creation of the object of a class in the another class with in same package/in the different package
+
+and in the different project------------------> that is also possible
+
+
+
+java has given a class named Scanner class 
+that class will be used for taking inputs from the user
+
+if i create the object of Scanner class in my class ------------------> what is this concept
+has a relationship
+
+
+how we can call the method of Scanner class ?
+
+by creating the object of Scanner class 
+
+public class Scanner
+{
+  public int nextint()
+  {
+
+  }
+  public float nextfloat() 
+  {
+
+ }
+}
+
+
+
+we can take the value at runtime
+
+
+if we don't want to fix the value in the code, how we can take 
+with the help of Scanner class 
+
+
+
+what do you mean by variable ?
+which store some value and value can be change
+
+constant
+which store some value and value can't be change
+
+
+with the help of final keyword, we can make constant in java
+
+
+if we make a class as a final, we can't inherit that class
+
+that is the predefined class, that is given by java
+you can call the method of that class by creating the object of that class
+
+control+space Scann then use control+space
+
+Assignment1
+
+((((x1+x2)+x3)-x4)/x5)*x6)
+
+
+Assignment2
+
+(((((x1*x2)-x3)+x4)-x5)/x6)
+
+
+Assignment3
+
+Practice of Inheritance and is a vs has a relationship
+
+Assignment4
+
+Practice of the final keyword for making constant and final class
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
