@@ -1,0 +1,74 @@
+post
+get all
+get a particular
+
+****************************************************
+
+parsing using jsonPath
+delete and put request using rest assured
+
+
+
+tomorrow we will discuss that is the framework kick off----means the overall architecture of the framework
+
+from next session framework practically
+
+
+***************************************************
+
+Parsing means extracting something from the response
+
+there are two ways for parsing
+
+1) using org.json library
+2) using jsonpath 
+
+
+how to calculate the jsonpath
+
+how we will make the jsonpath
+
+
+
+searching key inside object---then-------------------object.searchingKey
+if searching key is not inside object then---------searchingKey
+if searching key inside object inside array-----  arrayname[indexNumber].searchingKey
+array-------object------------searching key----------
+
+
+objectname.arrayname[indexNumber].searchingKey
+
+
+arrayname[indexNumber].arrayname[indexNumber].searchingKey
+
+objectname.objectname.searchingKey
+
+
+
+here in the jsonpath we can extract only single value 
+for multiple values,multiple occurence for all those combinations------we will use org.json library
+
+
+for extraction-----
+
+for insertion---------------org.json + pojo + json file
+
+
+**************************************************************************************
+
+you can maintain all the IDs in a json file 
+read that json file(read the id values) and use those id value in the delete request
+
+
+*************************************************************
+
+which record you want to update and which data
+
+
+
+
+
+
+
+
+

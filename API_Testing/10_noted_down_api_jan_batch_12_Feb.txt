@@ -1,0 +1,97 @@
+so today we will discuss about one of the most important topic that is parsing
+
+parsing means extract something from the response body
+
+why we need to parse ?
+
+1) so that we can use that thing in the another api(we call it api chaining)
+2) so that we can do the assertion(means we can compare the expected result with the actual)
+
+
+
+api1----------------post request------------in the response we are getting id value -----------so we need that id value for the second api(that is get request) in the URI -------------so this is the concept of api chaining
+
+
+for example we are hitting a api(that is the get request) in the response we are getting firstname---deepak now we have to verify whether firstname value is deepak or not... so for that thing also we have to extract firstname from the response(that is our actual value) and expected already we have. we can do the comparison
+
+
+firstname--------expected----------Deepak
+in the response firstname-------deepak is coming
+
+no it is not correct it is not matching
+
+
+
+let me take a example for second case
+
+for example in the response i am expecting account number value must be 100101010
+
+but in the response account number is coming 100000000
+
+so it is correct 
+
+
+here we will discuss 
+
+1) how to extract single occurence of a value(firstname----1 time-----i need that value)
+2) how to extract multiple occurent of a value(firstname----10 times----i need all the values)
+3) how to extract all the values of a object "Accountinformation" ---accounthooldername, address, pincode---
+so we need all the data of Accountinformation
+
+
+for parsing anything from the response we have two ways
+
+1) we can use the org.json library
+2) we can use the jsonpath
+
+so today we will discuss about org.json library for parsing the response
+
+
+for example i want to extract all the ids
+
+
+
+
+
+
+keySet() method is giving all the keys of jsonobject and return type of this method is Set<String> Set of String
+
+
+public Set<String> abc() 
+{
+
+}
+
+Set<String> result=  obj.abc();
+
+
+
+
+
+After : whatever is written that is the return type of that method
+
+
+
+
+
+
+
+
+
+single value extract
+multiple values extract
+object-----------key:values extract
+array--------object-------key:values-------------->?
+
+array---one loop for object
+object---one loop for key:values
+
+firstly check your json response based upon that use Jsonobject/jsonArray
+
+
+
+
+
+
+
+

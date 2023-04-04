@@ -1,0 +1,4 @@
+TC1-------------to hit the post request----firstname-----abc
+TC2--------------to hit the get all request
+TC3--------------to hit the get request(here we will use the id of TC1 response) ---api chaining
+TC4--------------to update the record(here we will use the id value of TC1 response)--firstname--xyz

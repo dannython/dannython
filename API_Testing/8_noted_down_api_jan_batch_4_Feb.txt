@@ -1,0 +1,163 @@
+how to hit the post request using rest assured.
+how to hit the get all request using rest assured.
+how to get a particular record using rest assured
+
+In case of Rest Service--------------json,xml, plain text
+in case of soap service---------xml only
+
+
+how to hit the post request with body data(simple/complex and in form of array) using org.json
+
+how to hit the post request with body data(simple/complex and in form of array) using json file
+
+in this approach, dev team will give the body data to us, just paste that body data in a json file
+
+now we will write the code for reading that json file.
+
+in real time, in our payload file(input json file) we will declare variables which are dynamic in nature means the values which need to change again and again we will declare those values as a variable
+
+
+in the String we have a method for replacement 
+
+here we want to replace the id variable with a id value
+
+replaceAll is a method of String class.
+
+
+
+
+
+"{{id}}"  Pattern------is a class and quote is a method
+
+
+
+
+body data can be simple,complex and in form of array json data
+
+body data prepare ways------------->
+
+1) using org.json
+2) using json file
+3) using pojo classes
+
+
+
+
+
+
+
+now today we will discuss about 
+how to prepare the body data using pojo classes
+
+we will create simple/complex and in form of array data using pojo classes
+
+
+what is pojo---------------plain old java object
+
+
+
+creation of the simple json using pojo classes and hit the post request
+
+{
+
+
+
+
+
+
+
+}
+
+
+
+
+
+in case of pojo classes there is a concept of getter and setter method
+
+if we want to access the private variable of a class or if we want to give the value to the private variable we can do using getter and setter method.
+
+
+if you want to give the value to any private variable you will call setter method
+
+if you wantt to get the value of any private variable you will call getter method
+
+
+
+
+
+
+has a relationship
+
+creation of object of a class in the another class we call it has a relationship
+
+
+
+here we are passing the object of the BasicInformation in the body, internally this object will call the getter method for getting the values
+
+
+
+
+in the real time we use json file approach
+
+again we have limitation if we have large body data it will be difficult to create that using code.
+
+
+
+you have to create the class as per your body data and define all the keys there privately and you have to use the getter and setter method
+
+{
+
+        {
+
+        }
+
+
+}
+
+two classes
+
+{
+              {
+                         {
+
+                         }
+
+              }
+
+}
+
+
+complex json using pojo classes
+
+
+
+pojo classes-----------------
+
+
+
+complex json and in form of array-------------------------
+
+
+
+
+
+
+
+
+
+
+
+post request--------------
+org.json + json file + pojo classes
+
+
+parsing----------------means extracting something from the response data
+
+
+
+
+Response object-----------------asString()
+rest of the cases-----------------toString()
+
+
+

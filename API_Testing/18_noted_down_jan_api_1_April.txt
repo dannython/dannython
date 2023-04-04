@@ -1,0 +1,130 @@
+org.testing.TestScripts
+org.testing.testSteps
+org.testing.utilities
+URI.properties
+org.testing.responseValidation
+org.testing.resources
+org.testing.assertions
+
+*********************************************************************
+
+Postman-------------section pre requisite and test and assertion------------let's discuss on this
+
+*********************************************************************
+
+while hitting the request if there is any precondition we will keep inside pre requisite section 
+
+after hitting the request if we want to check something we will keep inside test section
+
+
+for example in our case before hitting the request we have to change the id value 
+
+we can generate a random id in the pre requisite and we can use that id in the request body
+
+*******************************************************
+
+for example after hitting the request we need to parse the id value so that we can use that id value in the another api
+
+parsing code we can keep in the test section
+
+we need to validate the status code or we need to validate the data we can keep in the test section
+
+
+
+here we will generate a random id that random id we will give to the local  variable that is id_value so that
+that variable can be use in the request body
+
+
+pre request --------whatever precondition before hitting the request we will keep here
+test--------------after hitting the request whatever we want to do we will keep here
+
+postman-----------java script
+
+
+
+
+
+
+Headers and paramaeters in postman
+
+
+
+
+webpage----
+HTML
+Head
+TItle 
+Body
+
+
+request body specification
+
+Headers 
+Authorization
+Request body
+Parameters
+
+
+query parameter ------------? and for multiple query -use &
+path parameter---------------/
+
+basically parameter is used for the filteration
+
+
+
+
+
+
+
+
+developement team put some authentication
+whether you have rights or not to consume the apis for that purpose dev team put the authentication
+
+so there are different type of authentication like
+
+
+
+
+
+
+
+api1---------------from the response you are getting the bearer token----------you need to use the bearer token in the other apis
+
+you have to go to some web portal---------from there you can get the authenticaiton values--------you need to use those values in the other apis
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

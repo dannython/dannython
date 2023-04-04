@@ -1,0 +1,63 @@
+so today we will discuss about 
+
+complex json and in form of array json using pojo classes
+
+
+{ ----------------------------------------------Basic Information
+  firstname
+  lastname
+  id
+  designation
+  Address:
+     { -----------------------------------------Address Information
+        houseno
+         sector
+         landmark
+        addresstype
+    }
+
+}
+
+*********************************************************************************
+
+
+
+
+{----------------------------------------------Basic Information
+
+ firstname
+lastname
+id
+designation
+         [-----------------------------------------AddressInformation
+
+                    {-------------------------------------1st object of AddressInformation
+
+                    },
+                   { --------------------------------------2nd Object of AddressInformation
+ 
+                   }
+
+       ]
+
+}
+
+******************************************************************
+Post request--------with body data(org.json + json file + pojo classes)
+Get request--------for all record
+Get particular record
+
+
+
+post------------insert-----------------data-----------by three ways(input data)
+get--------------fetching------------data-------------just hit the request(no request body data or input data)
+
+
+
+
+
+
+
+
+
+

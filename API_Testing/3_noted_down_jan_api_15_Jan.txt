@@ -1,0 +1,204 @@
+so today we will discuss about 
+
+postman introduction
+hit the apis manually in the postman
+
+
+what is postman
+
+postman is a api testing tool for manual and automation.
+
+download the exe file of the postman and click on it then next---next and finish it
+
+
+for window 64 bit
+
+https://www.postman.com/downloads/
+
+what do you mean by collection
+collection is similier to the folder
+
+collection is used for grouping the testcases(api testcases)
+
+it is similier to the package in the java
+
+collection is a container
+
+
+
+
+what is the benefit of the collection
+for example
+
+you have 10 api test cases of feature1
+you have 10 more api test cases of feature2
+
+
+how you will differentiate
+
+collection1--------------10 api testcases of feature1
+collection2---------------12 api testcases of feature2
+
+
+api nov batch------------collection1
+api jan batch-------------collection2
+
+
+
+HTTP Methods
+
+so before hitting the api testcase we have to decide which http method we want to hit
+
+who will tell-------dev team will tell which http method we have to use
+
+as per HTTP standard
+
+if i want to insert a record, we will use post method
+
+if we want to fetch the record, we will use get method
+
+if we want to update the record, we will use put/patch method
+
+if we want to delete a record, we will use delete method
+
+
+post----------------------insert query--------for inserting a record
+get------------------------select query--------for fetching the records
+put/patch--------------update query--------for updating the record
+delete-------------------delete query---------for deleting the record
+
+
+I want to insert the record for one of the api student
+
+firstname
+lastname
+id------------------------that is the mandatory key, it is similier to the primary key in DB
+designation---------
+course time--------
+course type-------
+
+
+
+which http status code will come 201
+
+
+
+primary keys will be always unique
+
+
+
+
+
+who is giving the APIs
+Json-server
+
+so if you are not giving the id, it will auto insert
+
+
+
+
+
+in the real time, there can be any unique key, it is not only id
+
+real time there can be any key that can be unique
+
+
+
+the record where id ----Ravneet 
+
+Select * from tablename where id like 'Ravneet';    http://localhost:3000/APIFolks/Ravneet
+
+
+
+
+
+
+http://localhost:3000/APIFolks/X6lwsmE-------------example of path parameter
+
+
+
+
+path parameter----------------------------/
+query parameter-------------------------?
+
+
+
+
+
+here in our case(the apis created by json server) here you can pass only primary key in the path parameter
+in real time there can be anything with /(path parameter)
+
+
+generally with path parameter we use primary key 
+because in the response it will give a unique record
+
+but for example there can be a situation you can pass any other key value 
+so in the response there can be single record or multiple record
+
+
+
+
+
+dev team will tell us
+
+request body data(test data for apis)
+which http method
+response body data
+URI
+http status code(it is coming in the response) 
+
+
+
+in the api specification document
+
+
+API specification document/swagger/ there can be some web portal as well where dev team will update the apis information 
+
+
+
+before delete request you can hit get all----------save the response of get all
+then hit the delete request
+again hit the get all---------------------------save the response of get all
+
+
+as of now we are getting only one record
+means we have to change the id value again and again for get a particuler record
+
+with the help of automation we can do this thing means we can hit the request in the loop and in the loop we can change the id value by taking it from the excel file(or from csv file) or from json file
+
+from the frontend(UI) you can take all these information
+
+
+
+
+
+Assignment
+
+post request
+get all
+get a particular with path
+get a particular with qurry
+get a particular with multiple query
+delete record
+
+
+as per the http standard post is used for inserting the record
+
+
+inserting a record----------you can use get request
+
+but as per http standard get is used for fetcing the information and here dev is saying post can be use for fetching the information
+
+post ---as per http ----------in case of post we will get 201 status code
+but as per dev imp  we can get 200 also in case of post request
+
+
+
+
+
+
+
+
+
+
+

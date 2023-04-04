@@ -1,0 +1,136 @@
+today we will discuss about
+put and patch request
+
+and variables in postman
+
+maven introduction only
+
+
+
+what do you mean by variable ?
+which store some value and value can be change
+
+
+there is a concept of environment variable(local variable) the variable which is used by a particular collection
+I will declare a variable inside environment variable and i can use these environment variables for collection(API_Batch_1PM)
+
+and in this case i need to change in the environment variable because all the 50 testcases are using the uri value from that environment variable
+
+
+A collection can use the environment variables(variable specific to that collection) + the global variables
+
+
+
+
+export and import means
+if i want to share my api testcases with someone, I can share the collection with the help of export functionality menas i will export the collection and second person will import that collection
+
+we can share the variables as well means we can export and import the variables as well
+
+
+
+
+
+
+firsttime you have declared a variable
+
+variablename       initial value          current value
+Base                   localhost:3030       localhost:3030
+Base                   localhost:3030       localhost:4040
+
+
+
+
+
+put and patch-----------------------it is used for updating the record(data)
+
+
+
+
+put--------------in case of put request we have to pass the complete body data
+
+the body data which we want to update + the body data which we don't want to update
+
+
+
+patch--------------in case of patch request we need to pass the body data which we want to update
+
+
+dev team will tell you which http method you have to use for the updation purpose 
+it is put/patch
+
+******************************************************************
+
+in real time we can create a record with put method as well
+in our case if we are passing a new id in the URI it will say 404 not found
+
+
+
+
+Put-------------you have to pass the complete body data(the data which you want to update + which you don't want to update)
+
+Patch-----------------you have to pass the data which you want to update
+
+
+
+
+
+
+in automation-----------------------we can work on multiple record
+I want to insert 10 record with 10 unique ID
+
+as of now it is not possible-----------------------you have to change the id value manually
+but in automation yes it's possible
+
+
+
+get---------------------it will give you one record(but you have 5 records you have to change the id value again and again manually) but in automation we can acrhive it very easily
+just use a loop that's it
+
+get all-----------------it will give you all record
+
+Maven is a build tool which is used for maintaining the jars file of the project
+
+
+How many ways we can attach the jar files
+
+1) using manually----------------download the jar file from google and attach it manually with your project using build path option
+
+2) with the help of maven------here you need to give the maven dependency of the required jar files to the maven and maven will download the jar files for you from google and it will attach with your project
+
+
+
+
+
+
+library----------> jar files-------------> maven dependency
+
+rest assured library
+
+1) you can download the jar files corresponding to the rest assured library and you can attach with your project
+
+2) you can take the maven dependency of the rest assured library and give that maven dependency to the maven and maven will download the jar files and it will attach with your project
+
+
+you need to take the maven dependency of the rest assured library from mvnrepository.com
+
+
+
+declare the variable first in either environment variable or global variable
+
+variable use-----------------{{variableName}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

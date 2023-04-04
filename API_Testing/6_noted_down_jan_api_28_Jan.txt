@@ -1,0 +1,142 @@
+so today we will discuss about
+
+post request using rest asssured library
+
+
+in case of post request, body data will go or not ?
+yes body data will go in case of post request.
+
+
+we have three type of body data(request body data)
+simple json
+complex json
+in form of array json
+
+
+we have three ways for the body data creation
+1) we can create simple,complex and in form of array data using org.json library
+2) we can create simple,complex and in form of array data using json file
+3) we can create simple,complex and in form of array data using pojo classes
+
+
+
+Basically in the real time developer will give us the test data 
+
+if body data is large-----------then second approach is better(using json file)
+
+
+
+
+
+
+
+
+
+copy the body data create a json file and paste your body data in that json file---and read that json file using java code(that is the best approach)
+
+simple/complex/array
+
+1) using org.json
+2) using json file
+3) using pojo classes
+
+
+**********************************************************************
+
+today we will start with the org.json library
+
+
+{    
+"firstname" : "Deepak",
+"lastname" : "Chanana",
+"id" : "DC",
+"designation" : "STL"
+}
+
+org.json library has given two classes 
+
+for object notation-----------------JsonObject
+for array notation-------------------JsonArray
+
+
+
+
+
+before hitting the request what we should have
+the request body data
+
+
+in case of Response object we use asString() method
+rest of the places we will use toString() method
+
+
+
+
+
+
+
+I want to insert complex json data using org.json library
+
+
+{ ----------------------------------------------------OuterJsonObject
+
+          {---------------------------------------------InnerJsonObject
+             Addrss details
+
+          }
+
+}
+
+
+post request----------------
+
+given-------------------we should have body data + body data content type 
+when---------------------we are hitting post method
+
+
+
+ [ ] ---------array can store objects
+ {} ---------object store key value pair
+
+format---------------- []   {  }
+
+
+
+
+
+simple,complex and in form of array body data using org.json and hit the post request method
+
+
+what is the reason for not using this approach ?
+if your body data is large, is it good approach to write the too much code for large body data
+
+because for each thing we have to take the classes and method for preparing the body data
+for example in our body data there are 50 json object----------
+
+900 key value--------------put statement 900 times
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

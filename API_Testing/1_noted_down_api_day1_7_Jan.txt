@@ -1,0 +1,120 @@
+so guys please don't write anything on paper or notepad.
+I will make notes for you 
+I will share everything
+you don't need to write
+just give attention to the session.
+
+*********************************************************
+
+what do you mean by APIs ?
+some real time example of APIs
+where APIs testing come into the picture.
+importance of the api testing
+key points while api testing.
+
+
+API is a way of communication
+
+between frontend(UI) and the backend(database) of the application
+between two different or same technologies application(component)
+between two different platform application
+
+
+
+
+
+UI Layer(Frontend Layer)
+API Layer(Business Logic Layer)
+DB Layer(Data base Layer)
+
+
+
+what is the benefit of the APIs
+
+
+the main benefit of the api testing is that we can find out the issues at the early stage of the product development
+
+we can find out the issues before UI developmnet
+
+
+
+
+db layer will be designed by the DBA 
+
+after that business logic(api layer) apis will be designed by the development team
+
+and finally UI will be designed by the development team
+
+
+
+
+because we are testing the business logic(the main logic)
+
+1) because with the help of api testing we can find out the issues in the early stage of development
+2) api testing is faster comparing to the UI automation
+
+
+
+you have to automate a feature
+post a tweet msg on the tweeter application
+
+UI automation(Frontend automation)
+browser open---url hit----------maximize---------login--------tweet msg type----------click on the post button
+5 mins
+
+with the help of apis
+it will take hardly 10 seconds
+
+
+because api layer is closure to the db(database layer)
+
+
+
+
+
+
+Postman------------------------java script
+Rest Assured-----------------java
+SoapUI-----------------------------groovy scripting
+SoapUI Pro
+Groovy Scripting
+
+
+key points while api testing
+
+1) firstly we have to verify the response(output) data that is correct or not
+2) api chaining(first api----response(output) data-----we will extract something---------we will use that thing in the another api -----------that is api chaining
+3) test the api with different different data(test data) 
+
+
+
+in the real time development team will give all the information
+here we are creating just for our learning purpose
+
+
+recording + noted down file
+notes
+assignments
+screenshot of the assignment in the group
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

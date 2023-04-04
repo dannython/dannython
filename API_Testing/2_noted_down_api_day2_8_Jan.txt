@@ -1,0 +1,242 @@
+soap service vs rest service
+
+what do you mean by api ?
+
+api is a way of communication between
+
+frontend and the backend(database) of the application
+
+two different/same technologies applications
+
+two different platform applications
+
+we have two type of services(APIs)
+
+soap Service
+rest service
+
+when development team has design the soap service for communication they will give us a single file named
+wsdl(webservices description(definitation) language
+
+all the operations/features/resources will be defined in the single wsdl file
+
+we have to test that wsdl file
+
+
+in case of soap service developer will give us wsdl file 
+wsdl file will contain all the resources/features/operations
+
+
+wsdl file is based on xml format
+
+
+html format-----------------predefined tag
+html head title body div
+
+xml format----------------user defined tag
+<firstname>  </firstname>
+
+
+in case of rest service 
+
+there will be a unique URI(URL) for each operation/resource/functionality
+
+
+sum-------------www.calculator.com/sum
+sub---------------www.calculator.com/sub
+
+rest service support both the formats
+xml format and json format
+
+
+
+xml format----------- <firstname>deepak</firstname>
+json format---------"firstname" : "deepak"
+
+URI----Uniform resource identifier----------
+
+URI consist --------------Base + end point + parameter
+
+
+http://localhost:3000/APIStudentsList
+
+Base-----localhost:3000
+end point--------/APIStudentsList
+
+
+https://dummy.restapiexample.com/api/v1/employees
+
+Base-----https://dummy.restapiexample.com/api/v1
+end point-----/employees
+
+
+
+before end point whatever is written that is the base location
+
+
+
+
+
+https://dummy.restapiexample.com/api/v1/create
+
+Base---https://dummy.restapiexample.com/api/v1
+end point----/create
+
+
+https://dummy.restapiexample.com/api/v1/employee/1
+
+Base----
+https://dummy.restapiexample.com/api/v1
+
+end point------/employee
+
+path parameter-----/1
+
+
+
+parameter------------? or / 
+
+? query parameter
+
+/ path parameter
+
+
+https://www.makemytrip.com/hotels/
+
+Base----https://www.makemytrip.com
+
+end point------/hotels
+
+
+
+https://www.makemytrip.com/railways/
+Base----https://www.makemytrip.com
+
+end point------------/railways
+
+
+
+& for multiple query parameter
+
+
+resource/feature/operation/end point--------------functionality
+
+
+soap service-----------wsdl file
+rest service-------------URI
+
+so today we will create our dummy rest api for practice purpose
+
+in the real time developer will not use this approach
+I am just giving you the short cut
+
+developer will write proper code for rest api development
+
+
+
+https://nodejs.org/en/download/
+
+after downloading the node js executable just click on it then next ----next and finish
+
+
+after that we will get the node js setup in our machine
+in the C drive program files
+
+
+copy this node js path
+
+and in the same way copy the node modules path
+
+
+set these path in the path variable
+
+
+
+
+
+
+
+
+
+
+
+step1----------------download the node js and run that executable and finish it and check you are getting node js folder in C drive and Program files
+
+step2-----------------set the path variable for node js and node modules in the path variable
+
+step3-----------------check the node --version and npm --version on cmd
+
+step4------------------install the json-server package using npm on cmd by below command
+                              npm install -g json-server
+
+step5-------------------check the json-server --version (json-server --version)
+
+step6---------------create a json file and pass that json file to the json-server
+
+step7------------------start the json serveer from cmd 
+                            json-server --watch yourjsonFile
+
+
+
+
+
+{ } -----------------------Object notation
+[ ] -----------------------Array notation
+
+
+
+
+how we will validate our json is valid or not
+
+go to jsonlint.com
+
+
+
+
+{
+	"APIFolks": [],
+	"SeleniumFolks": [],
+	"CreateCustomer": [],
+	"StudentsList": []
+}
+
+
+
+
+
+
+json-server --watch yourjsonfile
+
+
+
+
+
+
+
+you have to share the screenshot of 
+
+node --version
+npm --version
+json-server --version
+dummy rest api screenshot
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

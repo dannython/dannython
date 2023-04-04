@@ -1,0 +1,94 @@
+org.testing.testScripts
+org.testing.testSteps
+org.testing.responseValidation
+org.testing.utilities
+org.testing.resources
+org.testing.assertions
+URI.properties
+testNG implementation done
+how many test cases------------------total 10 test cases
+
+FW--------------------
+
+CI/CD implementation
+
+like you will push the code to the git hub, before that you need to execute the code using maven.
+how you will execute the code------------using maven 
+
+you need to pass testng.xml and surefire plugin to the pom.xml and maven will execute the code.
+
+firstly change your pom.xml -----------put the below things in that 
+
+
+
+
+
+
+
+
+above dependencies tag, put the below thing
+
+<build>
+		<plugins>
+			<!-- Compiler plug-in -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>${jdk.level}</source>
+					<target>${jdk.level}</target>
+				</configuration>
+			</plugin>
+			<!-- Below plug-in is used to execute tests -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>2.18.1</version>
+				<configuration>
+					<suiteXmlFiles>
+						<!-- TestNG suite XML files -->
+						<suiteXmlFile>testng.xml</suiteXmlFile>
+					</suiteXmlFiles>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+
+
+After that push your code into github -------------------------
+
+
+
+
+you need to give some software to the jenkins like 
+jdk path 
+git path
+maven path
+
+now we need to install some plugins into jenkins
+
+Jenkins is a CI/CD tool by which we will execute our code.
+
+
+
+
+
+In case of jenkins your manager will not open the eclipse for running the code.
+your manager can click and run the thing
+you can schedule the build also in jenkins
+means you can specify the time that time jenkins will pull the code and it will execute the code.
+
+
+
+in the companies devops team will do the setup of the jenkins things and they will give you the URL and credentials of the jenkins
+
+
+surefire plugin is used by maven for the execution of the testng.xml
+
+
+
+
+
+
+

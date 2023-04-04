@@ -1,0 +1,83 @@
+so today we will discuss about second approach for the payload(input request)
+
+second approach was input request in the json file
+
+in this approach whatever body data developer is giving to us, just paste that body data in a json file and with the help of java code we will read that json file.
+
+simple/complex/in form of array json--------------> paste it in the json file 
+
+before hitting the post request we will read this json file.
+
+before reading/writing any txt/json/xml/csv/xlsx/xls any type of file we have to create a connection with that file. we have to establish a connection with that file
+
+java has given a class named File that will be used for making the connection
+
+
+
+we have two type of the path
+
+absoluate-------------here we will give the complete location D:\sessions\APIJan\inputRequest.json
+
+relative ---------- ../APIJan/inputRequest.json
+
+we have a limitation here, we have to change the id value again and again before hitting the post request
+we have to change it manually
+
+there is a concept of variable declaration in the file(input file)
+means we can declare the variable in our input payload file and at the run time we can give value to those variables
+
+
+{{variableName}}
+
+we have to give the value to this variable or we have to replace the value corresponding to the id variable in the code before hitting the request.
+
+
+
+Variable pattern-------------"{{  variable name }}"
+
+
+
+
+
+firstly we have read the json file which is containing variable.
+now we have taken a value from user at run time using scanner class
+after that we are giving that value to the variable that we declared inside json file
+after that we are hitting the post request method.
+
+first one you can take the value from user
+or you can generate a random number using java code and use that random number for the id value
+
+
+
+
+when your data is dynamic you can't fixed the data in that case make that thing as a variable and give value to that variable.
+
+
+
+
+
+hit the post request by taking the data from the external json file with variables.
+
+
+
+
+
+
+response object---use asString()
+
+rest of the places--use toString() 
+
+as of now declared the variable in a single 
+
+10 post request-----------in each test cases body data you are taking from the json file
+
+now it's up to your requirement what you want to make the dynamic things
+
+
+practice of the post request method
+with body data using org.json and json file
+
+
+
+
+

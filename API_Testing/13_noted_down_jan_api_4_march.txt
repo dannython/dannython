@@ -1,0 +1,128 @@
+create a maven project first
+
+
+firstly put the maven dependency for the required libraries
+
+   <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+  
+<dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>6.10</version>
+    <scope>test</scope>
+</dependency>
+
+
+
+<!-- https://mvnrepository.com/artifact/log4j/log4j -->
+<dependency>
+    <groupId>log4j</groupId>
+    <artifactId>log4j</artifactId>
+    <version>1.2.17</version>
+</dependency>
+
+
+
+
+
+<dependency>
+    <groupId>com.relevantcodes</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>2.41.2</version>
+</dependency>
+
+
+<!-- https://mvnrepository.com/artifact/org.w3c/dom -->
+<dependency>
+    <groupId>org.w3c</groupId>
+    <artifactId>dom</artifactId>
+    <version>2.3.0-jaxb-1.0.6</version>
+</dependency>
+
+
+
+<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
+<dependency>
+    <groupId>com.fasterxml.jackson.core</groupId>
+    <artifactId>jackson-databind</artifactId>
+    <version>2.13.1</version>
+</dependency>
+
+
+<!-- https://mvnrepository.com/artifact/com.jayway.restassured/rest-assured -->
+<dependency>
+    <groupId>com.jayway.restassured</groupId>
+    <artifactId>rest-assured</artifactId>
+    <version>2.9.0</version>
+    <scope>test</scope>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/io.rest-assured/json-schema-validator -->
+<dependency>
+    <groupId>io.rest-assured</groupId>
+    <artifactId>json-schema-validator</artifactId>
+    <version>4.5.0</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/net.sourceforge.jexcelapi/jxl -->
+<dependency>
+    <groupId>net.sourceforge.jexcelapi</groupId>
+    <artifactId>jxl</artifactId>
+    <version>2.6.12</version>
+</dependency>
+
+
+<!-- https://mvnrepository.com/artifact/com.jayway.restassured/json-path -->
+<dependency>
+    <groupId>com.jayway.restassured</groupId>
+    <artifactId>json-path</artifactId>
+    <version>2.2.0</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.json/json -->
+<dependency>
+    <groupId>org.json</groupId>
+    <artifactId>json</artifactId>
+    <version>20210307</version>
+</dependency>
+   
+
+********************************************************************************
+
+create a properties file--------------------->
+put all the uris in form of key:value pair
+
+
+
+
+
+
+created a utility
+
+1) input--------------properties file path
+2) purpose---------to load the properties file
+3) output-----------it will return the properties object
+
+
+org.testing.testSteps--------------all the HTTP methods will be here
+
+
+
+
+URI.properties-----------all the uris
+org.testing.utilities----propertiesfileload + jsonfileload
+org.testing.resources--all the requestbody files
+org.testing.testSteps---all the HTTP methods here(Post)
+org.testing.testScripts---testcases will be here
+
+TC1-------------postrequest
+
+
+
+
+
+
+
+
+
+

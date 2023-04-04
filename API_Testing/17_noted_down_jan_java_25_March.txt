@@ -1,0 +1,62 @@
+org.testing.responseValidation + Assertion implementation
+
+now we have to implement the assertion part in our framework
+
+
+Assertion means comparison between expected result and actual result
+
+there are two type of the assertion
+hard assertion----------------assertion given by testng, if hard assertion failed then code will not execute further. 
+soft assertion-----------------assertion that we will create(user defined assertion) if soft assertion failed then code will execute further.
+
+
+responseValidation
+status code validation
+data validation
+
+how we can do the parsing from the response ?
+org.json
+jsonpath
+
+
+
+firstname value should be deepak in the response
+
+
+$.firstname
+
+packages of the framework-------------->
+org.testing.testScripts
+org.testing.testSteps
+org.testing.utilities
+org.testing.helper
+org.testing.responseValidation
+org.testing.assertions
+org.testing.resources
+URI.properties
+
+
+xmlsupport
+schema validation
+reports
+logscapture
+CI/CD implementation
+authentication 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
